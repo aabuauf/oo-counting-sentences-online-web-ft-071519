@@ -28,7 +28,7 @@ class String
 
   def count_sentences
     
-    sentArray = self.split(/[.]/)
+    sentArray = self.split(/[.]|[?]/)
     quesArray = self.split("?")
     exlArray = self.split("!")
     binding.pry
