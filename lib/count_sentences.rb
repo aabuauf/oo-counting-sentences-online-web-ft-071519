@@ -28,12 +28,11 @@ class String
 
   def count_sentences
     
-    sentArray = self.split(/[.]|[?]/)
-    quesArray = self.split("?")
-    exlArray = self.split("!")
-    binding.pry
+    sentArray = self.split(/[.]|[?]|[!]/)
+
+  
   
 
-sentArray.length + quesArray.length+ exlArray.length
+sentArray.length 
   end
 end
