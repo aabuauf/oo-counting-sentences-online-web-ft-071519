@@ -34,6 +34,6 @@ class String
     
   
 
-sentArray.length + quesArray+ exlArray
+sentArray.length + quesArray.length+ exlArray.length
   end
 end
