@@ -31,7 +31,7 @@ class String
     sentArray = self.split(".")
     quesArray = self.split("?")
     exlArray = self.split("!")
-    
+    binding.pry
   
 
 sentArray.length + quesArray.length+ exlArray.length
