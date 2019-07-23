@@ -27,8 +27,13 @@ class String
   end
 
   def count_sentences
+    
     sentArray = self.split(".")
+    quesArray = self.split("?")
+    exlArray = self.split("!")
+    
+  
 
-sentArray.length
+sentArray.length + quesArray+ exlArray
   end
 end
