@@ -29,10 +29,10 @@ class String
   def count_sentences
     
     sentArray = self.split(/[.]|[?]|[!]/)
-sentArray.reject { |c| c.empty? }
+newArray = sentArray.reject { |c| c.empty? }
   
   
 
-sentArray.length 
+newArray.length 
   end
 end
