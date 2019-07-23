@@ -29,6 +29,6 @@ class String
   def count_sentences
     sentArray = self.split(".")
 
-
+sentArray.index
   end
 end
