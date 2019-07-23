@@ -28,6 +28,7 @@ class String
 
   def count_sentences
     sentArray = self.split(.)
-    binding.pry
+
+
   end
 end
