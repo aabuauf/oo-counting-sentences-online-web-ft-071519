@@ -27,7 +27,7 @@ class String
   end
 
   def count_sentences
-    sentArray = self.split(.)
+    sentArray = self.split(".")
 
 
   end
